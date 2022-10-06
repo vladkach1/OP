@@ -4,4 +4,10 @@
     println('Високосный год')
   else 
     println('Не Високосный год');
+  
+  var (a, s) := (random(1, 31), random(1, 31));
+  if a > s then
+    print(a)
+  else 
+    print(s);
 end.

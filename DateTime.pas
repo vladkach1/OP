@@ -4,4 +4,6 @@
     println('Високосный год')
   else 
     println('Не Високосный год');
+  var w := random(1, 60);
+  print(w * 60);
 end.
